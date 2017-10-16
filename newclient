@@ -66,6 +66,7 @@ class Player:
             self.game()
             while true:
              if input('Сыграть снова? (yes(y)/no(n))?: ').lower() == 'y':
+                self.wait()
                 self.game()
              else:
                 print('By!')
